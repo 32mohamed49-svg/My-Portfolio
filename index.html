@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohamed Ramy | Data Analyst Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- ============================================ -->
+    <!-- PRELOADER (شاشة تحميل بسيطة) -->
+    <!-- ============================================ -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- NAVBAR (شريط التنقل الثابت) -->
+    <!-- ============================================ -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#hero">MR<span>.</span></a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <!-- Dark/Light Mode Toggle -->
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon" id="themeIcon"></i>
+                </button>
+                <!-- Mobile Menu Toggle -->
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ============================================ -->
+    <!-- HERO SECTION (القسم الأول - الترحيبي) -->
+    <!-- ============================================ -->
+    <section id="hero" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-badge">Welcome to My Portfolio</span>
+                <h1 class="hero-title">
+                    I'm <span class="highlight">Mohamed Ramy</span>
+                </h1>
+                <h2 class="hero-subtitle">
+                    <span class="typed-text" id="typedText"></span>
+                </h2>
+                <p class="hero-description">
+                    I've always loved analysis and deep thinking — for me, data is like a puzzle waiting to be solved.
+                    I enjoy taking raw data, cleaning it properly, and uncovering what's right and what's wrong within it.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-code"></i> View My Work
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i> Let's Connect
+                    </a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/32mohamed49-svg" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/mohamed--ramy/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:32mohamed49@gmail.com" target="_blank" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-wrapper">
+                    <!-- ضع صورتك هنا: غير src باسم ملف الصورة -->
+                   <img src="new imege.jpeg" alt="Mohamed Ramy" id="profileImage" />
+                    <div class="hero-image-ring"></div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- ABOUT SECTION (من أنا) -->
+    <!-- ============================================ -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">Who <span class="highlight">I Am</span></h2>
+                <p class="section-subtitle">A passionate AI student with a love for data and analysis</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I'm <strong>Mohamed Ramy</strong>, an Artificial Intelligence student at <strong>Beni Suef National University</strong>.
+                        I've always loved analysis and deep thinking — for me, data is like a puzzle waiting to be solved.
+                        I enjoy taking raw data, cleaning it properly, and uncovering what's right and what's wrong within it.
+                    </p>
+                    <p>
+                        I'm not a huge fan of heavy coding; I prefer the analytical side — thinking through problems,
+                        finding patterns, and coming up with smart solutions. When I'm given a task, I never leave it unfinished —
+                        I push through until it's done in the best possible way.
+                    </p>
+                    <p>
+                        My main goal is to work at a respected company where I can earn a good income while doing what I truly love.
+                        I want to be in an environment that values data-driven decisions and lets me grow as an analyst.
+                    </p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span class="info-label">Name:</span>
+                            <span class="info-value">Mohamed Ramy Mohamed</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Email:</span>
+                            <span class="info-value">32mohamed49@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Phone:</span>
+                            <span class="info-value">01070012793</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Location:</span>
+                            <span class="info-value">Fayoum, Egypt</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">University:</span>
+                            <span class="info-value">Beni Suef National University</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Major:</span>
+                            <span class="info-value">Artificial Intelligence</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <span class="stat-number" data-count="2027">0</span>
+                        <span class="stat-label">Graduation Year</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" data-count="5">0</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" data-count="3">0</span>
+                        <span class="stat-label">Languages</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- EDUCATION SECTION (التعليم) -->
+    <!-- ============================================ -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Education</span>
+                <h2 class="section-title">My <span class="highlight">Academic</span> Journey</h2>
+                <p class="section-subtitle">Building a strong foundation in Artificial Intelligence</p>
+            </div>
+            <div class="education-timeline">
+                <div class="edu-card">
+                    <div class="edu-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="edu-content">
+                        <h3>Bachelor of Computer Science</h3>
+                        <h4>Artificial Intelligence Major</h4>
+                        <p class="edu-institution">Beni Suef National University</p>
+                        <p class="edu-date">2023 — 2027</p>
+                        <div class="edu-courses">
+                            <span>Operating Systems</span>
+                            <span>Database</span>
+                            <span>Computer Networks</span>
+                            <span>Python</span>
+                            <span>Data Analysis</span>
+                            <span>Machine Learning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SKILLS SECTION (المهارات) -->
+    <!-- ============================================ -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Skills</span>
+                <h2 class="section-title">My <span class="highlight">Technical</span> Arsenal</h2>
+                <p class="section-subtitle">Tools and technologies I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Python</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>HTML &amp; CSS</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 70%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 50%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-chart-bar"></i> Data Analysis Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Excel</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Pandas &amp; NumPy</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Data Visualization</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 60%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-robot"></i> AI &amp; Machine Learning</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Scikit-learn</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 70%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Natural Language Processing (NLP)</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 60%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>TensorFlow / PyTorch</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 45%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>SQL</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> Soft Skills</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Problem Solving</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Attention to Detail</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Quick Learner</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Communication Skills</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Presentation</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SERVICES SECTION (الخدمات) -->
+    <!-- ============================================ -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Services</span>
+                <h2 class="section-title">What I <span class="highlight">Offer</span></h2>
+                <p class="section-subtitle">How I can add value to your team</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-magnifying-glass-chart"></i></div>
+                    <h3>Data Analysis</h3>
+                    <p>Clean, preprocess, and analyze data to extract meaningful insights that drive business decisions.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-robot"></i></div>
+                    <h3>Machine Learning</h3>
+                    <p>Build and train predictive models using Python and scikit-learn to solve real-world problems.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Data Visualization</h3>
+                    <p>Transform complex data into clear, compelling visual stories that are easy to understand.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-database"></i></div>
+                    <h3>Database Management</h3>
+                    <p>Write efficient SQL queries, manage databases, and ensure data integrity and accessibility.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- PROJECTS SECTION (المشاريع) -->
+    <!-- ============================================ -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Projects</span>
+                <h2 class="section-title">My <span class="highlight">Work</span></h2>
+                <p class="section-subtitle">Projects that showcase my skills in data analysis and AI</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Amazon Sales Analysis</h3>
+                        <p>Analyzed Amazon sales data to identify trends, top products, and seasonal patterns using Python and Pandas.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>EDA</span>
+                            <span>Matplotlib</span>
+                        </div>
+                        <a href="#" class="btn btn-project">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Spam Detection</h3>
+                        <p>Built a spam email classifier using Natural Language Processing and classification algorithms.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>NLP</span>
+                            <span>Scikit-learn</span>
+                            <span>Classification</span>
+                        </div>
+                        <a href="#" class="btn btn-project">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Student Performance Prediction</h3>
+                        <p>Developed a predictive model to forecast student academic performance using machine learning algorithms.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Scikit-learn</span>
+                            <span>Classification</span>
+                            <span>Pandas</span>
+                        </div>
+                        <a href="#" class="btn btn-project">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>AI Recommendation System</h3>
+                        <p>Built a recommendation engine using collaborative filtering to suggest products or content to users.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>AI</span>
+                            <span>Recommendation</span>
+                            <span>Machine Learning</span>
+                        </div>
+                        <a href="#" class="btn btn-project">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-cta">
+                <p>More projects coming soon — I'm currently organizing and documenting them properly.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- TESTIMONIALS SECTION (الشهادات/التوصيات) -->
+    <!-- ============================================ -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Testimonials</span>
+                <h2 class="section-title">What People <span class="highlight">Say</span></h2>
+                <p class="section-subtitle">Feedback from colleagues and instructors</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p>Mohamed is hardworking and always eager to learn.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Colleague</h4>
+                            <span>Academic Project Team</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p>Excellent teamwork and analytical skills.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Instructor</h4>
+                            <span>University Faculty</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonials-note">
+                <p><em>More testimonials available upon request.</em></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- CONTACT SECTION (التواصل) -->
+    <!-- ============================================ -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Contact</span>
+                <h2 class="section-title">Let's <span class="highlight">Connect</span></h2>
+                <p class="section-subtitle">I'm open to new opportunities in AI and Data Analytics</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:32mohamed49@gmail.com">32mohamed49@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+201070012793">01070012793</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h4>Location</h4>
+                            <span>Fayoum, Egypt</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fab fa-github"></i></div>
+                        <div>
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/32mohamed49-svg" target="_blank">github.com/32mohamed49-svg</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fab fa-linkedin-in"></i></div>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/mohamed--ramy/" target="_blank">linkedin.com/in/mohamed--ramy</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required />
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" />
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- FOOTER (التذييل) -->
+    <!-- ============================================ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 <strong>Mohamed Ramy</strong>. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://github.com/32mohamed49-svg" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/mohamed--ramy/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:32mohamed49@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================================ -->
+    <!-- SCROLL TO TOP BUTTON -->
+    <!-- ============================================ -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- ============================================ -->
+    <!-- EXTERNAL JAVASCRIPT -->
+    <!-- ============================================ -->
+    <script src="script.js"></script>
+</body>
+</html>
